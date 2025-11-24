@@ -2,6 +2,10 @@
    background-color:rgb(188, 197, 207);
     border-radius: 0;
     border-color:rgb(188, 197, 207);
+   
+}
+#container-style.container-fluid{
+    padding:0;
 }
 .navbar-brand {
     float:none;
@@ -86,8 +90,9 @@
         margin-left: auto;
         margin-right: auto;
     }
-     .container-fluid{
-        margin-left: 10px;
+    
+     #main-content.container-fluid {
+        margin-left:10px;
         margin-right:10px;
      }
 }
