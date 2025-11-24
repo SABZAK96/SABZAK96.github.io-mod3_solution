@@ -4,9 +4,7 @@
     border-color:rgb(188, 197, 207);
    
 }
-#container-style.container-fluid{
-    padding:0;
-}
+
 .navbar-brand {
     float:none;
 }
@@ -90,7 +88,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+
      #main-content.container-fluid {
         margin-left:10px;
         margin-right:10px;
