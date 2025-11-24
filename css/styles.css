@@ -38,13 +38,21 @@
     font-size: 3em;
     font-weight:bold;
 }
+
+
 #chicken, #beef, #sushi {
     background-color: rgb(130, 130, 130);
+    margin:auto;
     margin-bottom: 20px;
-    margin-right:auto;
-    margin-left:auto;
-    padding:5px;
+    
+    border:2px solid black;
+    padding:15px;
+    height:auto;
 }
+
+
+
+
 #chicken div, #beef div, #sushi div  {
     font-weight:bold;
     font-size:1.5em;
@@ -59,11 +67,27 @@
     margin: 0 auto 15px;
 }
 
+
 /* extra small devices*/
 @media (max-width: 767px) {
+   
     .col-xs-12{
          width:90%;
         float:none;
         
     }
+    #chicken, #beef, #sushi {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(min-width:768px){
+    #chicken, #beef, #sushi {
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .container-fluid{
+        margin-left: 10px;
+        margin-right:10px;
+     }
 }
